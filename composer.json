@@ -1,0 +1,26 @@
+{
+    "name": "croox/statamic-ai-alt",
+    "description": "AI-powered alt text generation for Statamic assets",
+    "type": "statamic-addon",
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\StatamicAiAlt\\": "src"
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.0",
+        "openai/openai-php": "^v0.8.0",
+        "laravel/framework": "^10.0"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic AI Alt",
+            "description": "AI-powered alt text generation"
+        },
+        "laravel": {
+            "providers": [
+                "YourVendor\\StatamicAiAlt\\ServiceProvider"
+            ]
+        }
+    }
+}

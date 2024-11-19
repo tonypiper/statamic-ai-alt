@@ -3,9 +3,12 @@
 namespace Croox\StatamicAiAlt;
 
 use Statamic\Providers\AddonServiceProvider;
-use OpenAI\Laravel\Facades\OpenAI;
 use Croox\StatamicAiAlt\Actions\GenerateAltText;
 
+/**
+ * @method void publishes(array $paths, string $group = null)
+ * @property \Illuminate\Foundation\Application $app
+ */
 class ServiceProvider extends AddonServiceProvider
 {
     protected $actions = [
@@ -34,6 +37,4 @@ class ServiceProvider extends AddonServiceProvider
 
         $this->app->register(\OpenAI\Laravel\ServiceProvider::class);
     }
-
-
 }

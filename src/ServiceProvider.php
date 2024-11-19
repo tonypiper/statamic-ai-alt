@@ -30,6 +30,8 @@ class ServiceProvider extends AddonServiceProvider
     {
         parent::register();
 
+        $this->app->register(\OpenAI\Laravel\ServiceProvider::class);
+
         // Merge configs
         $this->mergeConfigFrom(__DIR__.'/../config/statamic-ai-alt.php', 'statamic-ai-alt');
         $this->mergeConfigFrom(__DIR__.'/../config/openai.php', 'openai');

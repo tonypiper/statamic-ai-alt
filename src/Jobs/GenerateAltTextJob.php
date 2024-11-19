@@ -54,7 +54,7 @@ class GenerateAltTextJob implements ShouldQueue
         $base64Image = base64_encode($processedImage);
 
         $response = OpenAI::chat()->create([
-            'model' => 'gpt-4o-mini',
+            'model' => config('statamic-ai-alt.openai.model'),
             'messages' => [
                 [
                     'role' => 'user',

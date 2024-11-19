@@ -18,22 +18,22 @@ class ServiceProvider extends AddonServiceProvider
 
     public function bootAddon()
     {
-        parent::bootAddon();
-
         $this->publishes([
             __DIR__.'/../config/statamic-ai-alt.php' => config_path('statamic-ai-alt.php'),
-            __DIR__.'/../config/openai.php' => config_path('openai.php'),
-        ], 'config');
+        ]);
     }
 
     public function register()
     {
-        parent::register();
+        $this->mergeConfigFrom(__DIR__.'/../config/statamic-ai-alt.php', 'statamic-ai-alt');
+
+        config([
+            'openai.api_key' => config('statamic-ai-alt.openai.api_key'),
+            'openai.model' => config('statamic-ai-alt.openai.model')
+        ]);
 
         $this->app->register(\OpenAI\Laravel\ServiceProvider::class);
-
-        // Merge configs
-        $this->mergeConfigFrom(__DIR__.'/../config/statamic-ai-alt.php', 'statamic-ai-alt');
-        $this->mergeConfigFrom(__DIR__.'/../config/openai.php', 'openai');
     }
+
+
 }

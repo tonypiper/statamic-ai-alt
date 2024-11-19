@@ -8,9 +8,9 @@
         }
     },
     "require": {
-        "statamic/cms": "^5.0",
-        "openai/openai-php": "^v0.8.0",
-        "laravel/framework": "^10.0"
+        "php": "^8.1",
+        "statamic/cms": "^4.0|^5.0",
+        "openai-php/client": "^v0.8.0"
     },
     "extra": {
         "statamic": {

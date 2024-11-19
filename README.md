@@ -18,17 +18,28 @@ AI-powered alt text generation for Statamic assets using OpenAI's Vision API.
 
 ## Installation
 
-1. Install via Composer:
-```bash
-composer require croox/statamic-ai-alt
+1. Add this repository to your project's `composer.json`
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/croox/statamic-ai-alt"
+        }
+    ]
+}
 ```
 
+2. Install the package:
+```bash
+composer require croox/statamic-ai-alt:dev-main
+```
 
-1. Add your OpenAI API key and the target lanuage to your `.env` file:
+3. Add your OpenAI API key and the target lanuage to your `.env` file:
 
 ```env
 # API Key 
-OPENAI_API_KEY=your-api-key-here
+OPENAI_API_KEY=<your-api-key-here>
 # Set the language for alt text generation prompt.
 OPENAI_ALT_LANGUAGE="English"
 ```

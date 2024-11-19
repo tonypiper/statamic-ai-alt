@@ -51,5 +51,5 @@ OPENAI_ALT_LANGUAGE="English"
 3. The alt text will be generated in the background and saved to your assets
 
 ## License
-[[LICENSE.txt]]
+[LICENSE](./LICENSE.txt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

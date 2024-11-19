@@ -4,7 +4,7 @@ namespace Croox\StatamicAiAlt;
 
 use Statamic\Providers\AddonServiceProvider;
 use OpenAI\Laravel\Facades\OpenAI;
-use Vendor\StatamicAiAlt\Actions\GenerateAltText;
+use Croox\StatamicAiAlt\Actions\GenerateAltText;
 
 class ServiceProvider extends AddonServiceProvider
 {

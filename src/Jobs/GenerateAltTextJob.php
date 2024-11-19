@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\StatamicAiAlt\Jobs;
+namespace Croox\StatamicAiAlt\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

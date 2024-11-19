@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\StatamicAiAlt\Actions;
+namespace Croox\StatamicAiAlt\Actions;
 
 use Statamic\Actions\Action;
-use Vendor\StatamicAiAlt\Jobs\GenerateAltTextJob;
+use Croox\StatamicAiAlt\Jobs\GenerateAltTextJob;
 use Statamic\Assets\Asset;
 
 class GenerateAltText extends Action

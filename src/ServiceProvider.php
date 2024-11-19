@@ -23,7 +23,7 @@ class ServiceProvider extends AddonServiceProvider
     {
         $this->publishes([
             __DIR__.'/../config/statamic-ai-alt.php' => config_path('statamic-ai-alt.php'),
-        ]);
+        ], 'statamic-ai-alt-config');
     }
 
     public function register()

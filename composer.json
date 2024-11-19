@@ -23,5 +23,6 @@
                 "Croox\\StatamicAiAlt\\ServiceProvider"
             ]
         }
-    }
+    },
+    "license": "MIT"
 }

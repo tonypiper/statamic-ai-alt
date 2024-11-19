@@ -2,6 +2,7 @@
 
 AI-powered alt text generation for Statamic assets using OpenAI's Vision API.
 
+
 ## Features
 
 - Automatically generates alt text for images using OpenAI's Vision API
@@ -48,3 +49,7 @@ OPENAI_ALT_LANGUAGE="English"
 1. In the Assets section of the Control Panel, select one or more images
 2. Click the "Generate Alt Text" action
 3. The alt text will be generated in the background and saved to your assets
+
+## License
+[LICENSE.txt]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

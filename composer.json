@@ -4,7 +4,7 @@
     "type": "statamic-addon",
     "autoload": {
         "psr-4": {
-            "croox\\StatamicAiAlt\\": "src"
+            "Croox\\StatamicAiAlt\\": "src"
         }
     },
     "require": {
@@ -19,7 +19,7 @@
         },
         "laravel": {
             "providers": [
-                "croox\\StatamicAiAlt\\ServiceProvider"
+                "Croox\\StatamicAiAlt\\ServiceProvider"
             ]
         }
     }

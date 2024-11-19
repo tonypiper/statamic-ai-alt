@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\StatamicAiAlt;
+namespace Croox\StatamicAiAlt;
 
 use Statamic\Providers\AddonServiceProvider;
 use OpenAI\Laravel\Facades\OpenAI;

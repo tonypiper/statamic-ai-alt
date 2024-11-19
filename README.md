@@ -5,7 +5,7 @@ AI-powered alt text generation for Statamic assets using OpenAI's Vision API.
 ## Features
 
 - Automatically generates alt text for images using OpenAI's Vision API
-- Works with JPG, PNG, and GIF files
+- Works with JPG, PNG, Webp and GIF files (SVG is not supported)
 - Available in both list and detail views (Statamic 5+)
 - Queued job processing to handle large batches
 

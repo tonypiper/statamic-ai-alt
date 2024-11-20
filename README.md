@@ -38,6 +38,12 @@ OPENAI_ALT_LANGUAGE="English"
 2. Click the "Generate Alt Text" action
 3. The alt text will be generated in the background and saved to your assets
 
+
+## Future ideas / missing features
+- Support SVG
+- Check API results before saving alt text
+- Check for existing alt text before overriding with API results
+
 ## License
 [LICENSE](./LICENSE.txt)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

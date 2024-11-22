@@ -41,7 +41,6 @@ OPENAI_ALT_LANGUAGE="English"
 
 ## Future ideas / missing features
 - Support SVG
-- Check API results before saving alt text
 - Check for existing alt text before overriding with API results
 
 ## License

@@ -2,6 +2,7 @@
 
 AI-powered alt text generation for Statamic assets using OpenAI's Vision API.
 
+![AI Alt Generator in the Statamic Asset Manager](./screenshot.png)
 
 ## Features
 
